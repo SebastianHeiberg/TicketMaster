@@ -15,4 +15,17 @@ public class Event {
   public String getBeskrivelse(){
     return beskrivelse;
   }
+
+  public int getBilletter(){
+    return billetter;
+  }
+
+  public int getBilletpris(){
+    return billetpris;
+  }
+
+  public void setBilletter(int antalkøbt){
+    this.billetter -= antalkøbt;
+  }
+
 }
